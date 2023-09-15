@@ -1,0 +1,16 @@
+.suporte-site {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.suporte-site h2 {
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--marrom);
+}
+
+.suporte-site p {
+    margin: 0 auto;
+    width: 80%;
+}
