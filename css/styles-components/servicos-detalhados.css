@@ -1,58 +1,65 @@
 .secao-servicos-detalhado {
-    background-color: rgba(226, 226, 226, 0.1843137255);
-  }
-  .secao-servicos-detalhado .secao-servicos-detalhado-maximo {
-    padding: 100px 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
+  background-color: rgba(226, 226, 226, 0.1843137255);
+}
+
+.secao-servicos-detalhado .secao-servicos-detalhado-maximo {
+  padding: 100px 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.secao-servicos-detalhado .secao-servicos-detalhado-maximo img {
+  display: block;
+  width: 50%;
+}
+
+.secao-descricoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  align-content: left;
+}
+
+.secao-descricoes .descricao .elipse {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 0px 8px;
+}
+
+.secao-descricoes .descricao .elipse i {
+  padding-top: 6px;
+  font-size: 30px;
+  color: #FCCB05;
+}
+
+.secao-descricoes .descricao h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #432921;
+}
+
+.secao-descricoes .descricao p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
   .secao-servicos-detalhado .secao-servicos-detalhado-maximo img {
-    display: block;
-    width: 50%;
+    display: none;
   }
-  
-  .secao-descricoes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 70px;
-    align-content: left;
+}
+
+@media screen and (max-width: 768px) {
+  .secao-servicos-detalhado .secao-servicos-detalhado-maximo {
+    padding: 50px 20px;
   }
-  .secao-descricoes .descricao .elipse {
-    background-color: #ffffff;
-    display: inline-block;
-    border-radius: 100%;
-    padding: 0px 8px;
+  .secao-servicos-detalhado .secao-descricoes {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
   }
-  .secao-descricoes .descricao .elipse i {
-    padding-top: 6px;
-    font-size: 30px;
-    color: #FCCB05;
-  }
-  .secao-descricoes .descricao h3 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #432921;
-  }
-  .secao-descricoes .descricao p {
-    font-size: 14px;
-  }
-  
-  @media screen and (max-width: 992px) {
-    .secao-servicos-detalhado .secao-servicos-detalhado-maximo img {
-      display: none;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .secao-servicos-detalhado .secao-servicos-detalhado-maximo {
-      padding: 50px 20px;
-    }
-    .secao-servicos-detalhado .secao-descricoes {
-      gap: 30px;
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+}

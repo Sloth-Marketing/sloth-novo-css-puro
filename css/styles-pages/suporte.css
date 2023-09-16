@@ -1,0 +1,21 @@
+@import '../main.css';
+@import '../styles-components/header-footer.css';
+@import '../styles-components/servicos-detalhados.css';
+@import '../styles-components/orcamento.css';
+@import '../styles-components/secao-suporte-site.css';
+@import '../styles-components/topo-servicos.css';
+@import '../styles-components/carrossel.css';
+@import '../styles-components/que-fazemos.css';
+
+.background-amarelo {
+    background-color: var(--amarelo-claro);
+    height: 100%;
+}
+
+.h3-bg-amarelo {
+    color: red;
+}
+
+.p-bg-amarelo {
+    color: var(--branco);
+}
