@@ -1,0 +1,100 @@
+@import '../main.css';
+@import '../styles-components/header-footer.css';
+@import '../styles-components/servicos-detalhados.css';
+@import '../styles-components/orcamento.css';
+@import '../styles-components/secao-suporte-site.css';
+@import '../styles-components/topo-servicos.css';
+@import '../styles-components/carrossel.css';
+@import '../styles-components/que-fazemos.css';
+
+.sobre-topo {
+    background-image: url(/img/);
+    padding: 40px 0px;
+}
+
+.sobre-topo p {
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+   
+.nosso-time {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.time-fundo {
+    width: 100%;
+}
+
+.time-fundo:nth-child(even) {
+    background-color: var(--cinza);
+}
+
+.time {
+    flex-direction: row-reverse;
+}
+           
+
+            /* .time {
+                flex-direction: row-reverse;
+                .cliente-txt{
+                    h3, p {
+                        padding-left: 30px;
+                    }
+
+                    a {
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+    .time{
+        width: 60%;
+        max-width: 1400px;
+        margin: 10px auto;
+        height: 400px;
+        @include Flex(space-around, center);
+
+        .time-txt {
+            width: 50%;
+            @include Flexcolumn(center, flex-start);
+            gap: 20px;
+
+            h3 {    
+                font-size: 30px;
+                text-align: left;
+                font-weight: 400;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                color: $branco;
+                padding: 10px 20px;
+                background-color: $amarelo-claro;
+                border-radius: 10px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .time-img {
+            img {
+                display: block;
+                width: 320px;
+                height: fit-content;
+                border-radius: 15px;
+            }
+        }
+    } */
