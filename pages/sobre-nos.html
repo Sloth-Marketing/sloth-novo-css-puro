@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles-pages/sobre-nos.css">
+    <link rel="stylesheet" href="./css/styles-pages/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="/assets/js/main.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/reload-img.js" defer></script>
     <title>Sloth Marketing Digital</title>
 </head>
-
 <body>
     <header>
         <div class="header-center">
-            <a href="/index.html"><img src="/img/sloth-logo-name.png" alt="Logo-sloth-marketing"></a>
+            <a href="index.html"><img src="/img/logo/sloth-logo-name.png" alt="Logo-sloth-marketing"></a>
             <nav class="nav-menu">
                 <ul id="ul-menu">
-                    <li><a href="/pages/suporte.html">Soluções</a></li>
-                    <li><a href="/pages/clientes.html">Clientes</a></li>
-                    <li><a href="/pages/projetos.html">Portfólio</a></li>
+                    <li class="li-dropdow">
+                        <h3 class="h3-solucoes">Soluções <i class="bi bi-caret-down-fill"></i></h3>
+                        <ul class="menu-dropdow">
+                            <li><a href="/pages/marketing-digital.html">Marketing digital</a></li>
+                            <li><a href="/pages/desenvolvimento-de-sites.html">Desenvolvimento de sites</a></li>
+                            <li><a href="/pages/suporte.html">Suporte</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/pages/portifolio.html">Portfólio</a></li>
                     <li><a href="/pages/sobre-nos.html">Sobre</a> </li>
                     <li><a href="/pages/contato.html">Contato</a> </li>
                 </ul>
@@ -29,20 +35,20 @@
     </header>
 
     <main>
-        <section class="secao-topo">
-            <div class="texto-topo">
+        <div class="fundo-cor">
+        <section class="topo-sobrenos">
+            <div class="texto-sobrenos">
                 <h2>Sobre Nós</h2>
 
                 <p>Nos destacamos pelo compromisso em colaborar com os clientes, oferecendo soluções realistas sem impor serviços desnecessários. Valorizamos a abordagem personalizada, tratando cada cliente de forma única e trabalhando em conjunto para alcançar os melhores resultados. Nosso amor pela tecnologia e entusiasmo pelos negócios digitais nos impulsionam a oferecer serviços feitos com qualidade.
                 </p>
-                <a href="#">Contato</a>
             </div>
-            <img src="/img/sobre-nos-img.svg" alt="">
+            <img src="/img/sobre-nos-img.svg" alt="" class="img-topo-sobrenos">
         </section>
+    </div>
 
         <h2 class="titulo-nosso-time">Nosso time</h2>
         <div class="nosso-time">
-                <div class="time-esquerda">
                     <div class="time">
                         
                             <img src="/img/Gabriel Lima 1.svg" class="time-img" alt="">
@@ -50,7 +56,7 @@
                     <div class="time-txt">
                         <h3>Gabriel Lima</h3>
 
-                        <p>Graduado em Propaganda e Marketing, com mais de 8 anos de experiência, possuo perfil generalista por ter realizado diversos projetos e participado de equipes multidisciplinares. Sou curioso e engajado para aprender cada vez mais, assim, ajudando  </p>
+                        <p>Head de Produtos e Projetos.</p>
 
                         <a href="https://www.linkedin.com/in/gabrielgoncalves2023/"><i class="bi bi-linkedin"></i></a>
                     </div>
@@ -63,29 +69,13 @@
                     <div class="time-txt">
                         <h3>Gease Silva</h3>
 
-                        <p>Atuando com marketing digital desde 2015:
-                            • Mídia: Criação e gerenciamento de anúncios online (Facebook Ads/Instagram Ads/Linkedin Ads/Google Ads/Tik Tok Ads);
-                            • Estudo e análise de públicos para segmentação
+                        <p>Gerente de Marketing e Atendimento.
                             </p>
 
                         <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
 
-                <!-- <div class="time">
-
-                    <h3>Trabalhe conosco</h3>
-
-            <div class="time-txt">
-
-                <p>Em busca de talentos apaixonados por soluções digitais. Oferecemos um ambiente inovador, crescimento profissional, projetos empolgantes e uma cultura colaborativa.</p>
-
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
-        </div> -->
-                </div>
-
-        <div class="time-direita">     
                 <div class="time">
 
                     <img src="/img/Wexlei Silva 1.svg " class="time-img" alt="">
@@ -93,9 +83,8 @@
                     <div class="time-txt">
                         <h3>Wexlei Silva</h3>
 
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam placeat ex dolore, deserunt
-                            quia quae excepturi, voluptates necessitatibus quidem, maxime alias delectus laboriosam hic
-                            ab dolorum adipisci distinctio aut molestiae?</p>
+                        <p>Head de Tecnologia.
+                        </p>
 
                         <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
@@ -108,29 +97,25 @@
                     <div class="time-txt">
                         <h3>Rodrigo Ferreira</h3>
 
-                        <p>Atuo como Analista de Performance, onde tenho desenvolvido expertise em diversas plataformas digitais, incluindo Google Ads, Meta Ads, Google Analytics e Google Tag Manager.</p>
+                        <p>Analista de Performance</p>
 
                         <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
-
-                <div id="angela-card">
-                    <div class="time">
-
-                        <img src="/img/angela-rabello 1.svg" class="time-img" alt="">
-    
-                        <div class="time-txt">
-                            <h3>Angela Rabello</h3>
-
-                            <p>Formada em Publicidade e Propaganda 
-                                Cursos Senac - formação básica em fotografia, técnico em publicidade, administração, design para web games.</p>
-                            <a href="#"><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
         </div>
-        
-            
+        <div id="angela-card">
+            <div class="time">
+
+                <img src="/img/angela-rabello 1.svg" class="time-img" alt="">
+
+                <div class="time-txt">
+                    <h3>Angela Rabello</h3>
+
+                    <p>Formada em Publicidade e Propaganda 
+                        Cursos Senac - formação básica em fotografia, técnico em publicidade, administração, design para web games.</p>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
         </div>
 
         <section>

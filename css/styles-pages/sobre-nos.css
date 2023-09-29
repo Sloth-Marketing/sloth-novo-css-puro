@@ -7,21 +7,43 @@
 @import '../styles-components/carrossel.css';
 @import '../styles-components/que-fazemos.css';
 
-.sobre-topo {
-    background-image: url(/img/);
-    margin-top: 200px;
-    padding: 40px 0px;
-}
 
-.sobre-topo h2 {
+
+.fundo-cor{
+margin-top: 60px;
+padding: 80px 0px;
+background-color: var(--amarelo-claro);
+}
+.topo-sobrenos {
+    margin-top: 120px;
+    background-color: var(--branco);
+    padding: 0 20px;
+    width: 80%;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 15px -3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+
+}
+.texto-sobrenos {
+    width: 50%;
+}
+.texto-sobrenos h2 {
     color: var(--marrom);
     text-align: center;
 }
 
-.sobre-topo p {
+.texto-sobrenos p {
+    font-size: 18px;
     margin-top: 20px;
-    width: 60%;
+    text-align: center;
     margin: 0 auto;
+}
+
+.topo-sobrenos img {
+    width: 400px;
 }
 
 .nosso-time {
@@ -38,21 +60,21 @@
 }
 
 .time {
-    width: 320px;
+    width: 230px;
     height: 400px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
     box-shadow: 1px 2px 15px -3px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     background-color: var(--branco);
 }    
 
 .time-img {
     width: 200px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .time-txt {
@@ -61,18 +83,23 @@
 }
 
 .time-txt p {
-    padding: 5px 0px;
+    padding: 20px 0px;
     line-height: 20px;
 }
 
 .time-txt h3 {
+    text-align: center;
     font-size: 20px;
     color: var(--marrom);
 }
 
 .time-txt i {
+    text-align: center;
     font-size: 30px;
     color: var(--amarelo-claro);
 }
 
-
+.angela-card {
+    margin-top: 20px;
+    
+}
